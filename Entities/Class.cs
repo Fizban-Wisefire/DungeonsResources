@@ -8,13 +8,13 @@ namespace Entities
 {
     public class Class
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Resource { get; set; }
-        public string Description { get; set; }
-        public string HitDie { get; set; }
-        public string PrimaryAbility { get; set; }
-        public string Saves {  get; set; }
+        public required int Id { get; set; }
+        public required string Name { get; set; }
+        public required string Resource { get; set; }
+        public required string Description { get; set; }
+        public required string HitDie { get; set; }
+        public required string PrimaryAbility { get; set; }
+        public required string Saves {  get; set; }
         public List<ClassDescriptionFeature> DescriptionFeatures { get; set; }
         public List<ClassMechanicFeature> MechanicFeatures { get; set; }
 

@@ -8,19 +8,19 @@ namespace Entities
 {
     public class Race
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Resource { get; set; }
+        public required int Id { get; set; }
+        public required string Name { get; set; }
+        public required string Resource { get; set; }
         public string Description { get; set; }
-        public int Str {  get; set; }
-        public int Dex { get; set; }
-        public int Con {  get; set; }
-        public int Wis { get; set; }
-        public int Int { get; set; }
-        public int Cha { get; set; }
-        public string Age { get; set; }
-        public string Size { get; set; }
-        public int Speed { get; set; }
+        public required int Str {  get; set; }
+        public required int Dex { get; set; }
+        public required int Con {  get; set; }
+        public required int Wis { get; set; }
+        public  required int Int { get; set; }
+        public required int Cha { get; set; }
+        public required string Age { get; set; }
+        public required string Size { get; set; }
+        public required int Speed { get; set; }
         public List<RaceDescriptionFeature> DescriptionFeatures { get; set; }
         public List<RaceMechanicFeature> MechanicFeatures { get; set; }
         

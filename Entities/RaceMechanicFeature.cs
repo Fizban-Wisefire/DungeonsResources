@@ -8,10 +8,11 @@ namespace Entities
 {
     public class RaceMechanicFeature
     {
-        public string Race { get; set; }
-        public string Name { get; set; }
-        public string Text { get; set; }
-        public string CharacterSheetText { get; set; }
+        public required int Id { get; set; }
+        public required string Race { get; set; }
+        public required string Name { get; set; }
+        public required string Text { get; set; }
+        public required string CharacterSheetText { get; set; }
 
 
         public RaceMechanicFeature(string Race, string Name, string Text, string CharacterSheetText)

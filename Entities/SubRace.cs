@@ -8,5 +8,7 @@ namespace Entities
 {
     internal class Subrace
     {
+        public required int Id { get; set; }
+        public required string Name { get; set; }
     }
 }

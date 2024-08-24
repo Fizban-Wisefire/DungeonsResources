@@ -8,10 +8,11 @@ namespace Entities
 {
     public class RaceDescriptionFeature
     {
-        public string Race { get; set; }
-        public string Name { get; set; }
-        public string Type { get; set; }
-        public string Text { get; set; }
+        public required int Id {  get; set; }
+        public required string Race { get; set; }
+        public required string Name { get; set; }
+        public required string Type { get; set; }
+        public required string Text { get; set; }
 
 
         public RaceDescriptionFeature(string Race, string Name, string Type, string Text)
