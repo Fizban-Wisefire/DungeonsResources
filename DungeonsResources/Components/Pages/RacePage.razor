@@ -1,0 +1,55 @@
+﻿@using Entities
+@using System.Text.Json
+
+@page "/race/{race}"
+<PageTitle>Race: @race</PageTitle>
+
+
+@if (pageRace == null)
+{
+    <p>Looking for race infomation...</p>
+}
+
+else
+{
+    <h1>Race: @pageRace.Name</h1>
+    <p class="citation">Source: @pageRace.Resource</p>
+
+    <div class="racePageContainer">
+        @if (pageRace.DescriptionFeatures != null)
+        {
+            @foreach (RaceDescriptionFeature feature in pageRace.DescriptionFeatures)
+            {
+                <div class="racePageContainerSection, descriptionFeature">
+                    <h5>@feature.Name</h5>
+                    <p>@feature.Text</p>
+                </div>
+            }
+        }
+        @if (pageRace.MechanicFeatures != null)
+        {
+            @foreach (RaceMechanicFeature feature in pageRace.MechanicFeatures)
+            {
+                <div class="racePageContainerSection, mechanicFeature">
+                    <h5>@feature.Name</h5>
+                    <p>@feature.Text</p>
+                </div>
+            }
+        }
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string? race { get; set; }
+    public Race pageRace;
+
+    protected override async Task OnInitializedAsync()
+    {
+        IDataAccess json = new JsonAccess();
+        pageRace = json.GetRace(Int32.Parse(race));
+
+        Console.WriteLine("Page Race is " +pageRace.Name);
+
+    }
+}

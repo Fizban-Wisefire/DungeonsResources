@@ -1,0 +1,38 @@
+﻿@using Entities;
+@page "/races"
+<PageTitle>Races</PageTitle>
+<h3>Races</h3>
+
+@if (RaceList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="resourceContainer">
+        @foreach (Race race in RaceList)
+        {
+            <a href="race/@race.Id">
+                <div class="resourceObject">
+                    <h3>@race.Name</h3>
+                    <p>@race.Resource</p>
+                    <p>@race.Description</p>
+                    <p>Str: @race.Str</p>
+                    <p>Dex: @race.Dex</p>
+                    <p>Con: @race.Con</p>
+                    <p>Wis: @race.Wis</p>
+                    <p>Int: @race.Int</p>
+                    <p>Cha: @race.Cha</p>
+                </div>
+            </a>
+        }
+    </div>
+}
+@code {
+    List<Race> RaceList = new List<Race>();
+    protected override async Task OnInitializedAsync()
+    {
+        IDataAccess json = new JsonAccess();
+        RaceList = json.GetRaces();
+    }
+}

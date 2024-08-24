@@ -1,0 +1,110 @@
+﻿[
+  {
+    "Id": 0,
+    "Name": "Barbarian",
+    "Resource": "Basic Rules (2014)",
+    "Description" : "A fierce warrior who can enter a battle rage",
+    "HitDie": "d12",
+    "PrimaryAbility": "Strength",
+    "Saves": "Strength & Constitution"
+  },
+  {
+    "Id": 1,
+    "Name": "Bard",
+    "Resource": "Basic Rules (2014)",
+    "Description": "An inspiring magician whose power echoes the music of creation",
+    "HitDie": "d8",
+    "PrimaryAbility": "Charisma",
+    "Saves": "Dexterity & Charisma"
+  },
+  {
+    "Id": 2,
+    "Name": "Cleric",
+    "Resource": "Basic Rules (2014)",
+    "Description": "A priestly champion who wields divine magic in service of a higher power",
+    "HitDie": "d8",
+    "PrimaryAbility": "Wisdom",
+    "Saves": "Wisdom & Charisma"
+  },
+  {
+    "Id": 3,
+    "Name": "Druid",
+    "Resource": "Basic Rules (2014)",
+    "Description": "A priest of the Old Faith, wielding the powers of nature and adopting animal forms",
+    "HitDie": "d8",
+    "PrimaryAbility": "Wisdom",
+    "Saves": "Intelligence & Wisdom"
+  },
+  {
+    "Id": 4,
+    "Name": "Fighter",
+    "Resource": "Basic Rules (2014)",
+    "Description": "A master of martial combat, skilled with a variety of weapons and armor",
+    "HitDie": "d10",
+    "PrimaryAbility": "Strength or Dexterity",
+    "Saves": "Strength & Constitution"
+  },
+  {
+    "Id": 5,
+    "Name": "Monk",
+    "Resource": "Basic Rules (2014)",
+    "Description": "A master of martial arts harnessing the power of the body in pursuit of physical and spiritual perfection",
+    "HitDie": "d8",
+    "PrimaryAbility": "Dexterity & Wisdom",
+    "Saves": "Strength & Dexterity"
+  },
+  {
+    "Id": 6,
+    "Name": "Paladin",
+    "Resource": "Basic Rules (2014)",
+    "Description": "A holy warrior bound to a sacred oath",
+    "HitDie": "d10",
+    "PrimaryAbility": "Strength & Charisma",
+    "Saves": "Wisdom & Charisma"
+  },
+  {
+    "Id": 7,
+    "Name": "Ranger",
+    "Resource": "Basic Rules (2014)",
+    "Description": "A warrior who combats threats on the edges of civilization",
+    "HitDie": "d10",
+    "PrimaryAbility": "Dexterity & Wisdom",
+    "Saves": "Strength & Dexterity"
+  },
+  {
+    "Id": 8,
+    "Name": "Rogue",
+    "Resource": "Basic Rules (2014)",
+    "Description": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies",
+    "HitDie": "d8",
+    "PrimaryAbility": "Dexterity",
+    "Saves": "Dexterity & Intelligence"
+  },
+  {
+    "Id": 9,
+    "Name": "Sorcerer",
+    "Resource": "Basic Rules (2014)",
+    "Description": "A spellcaster who draws on inherent magic from a gift or bloodline",
+    "HitDie": "d6",
+    "PrimaryAbility": "Charisma",
+    "Saves": "Constitution & Charisma"
+  },
+  {
+    "Id": 10,
+    "Name": "Warlock",
+    "Resource": "Basic Rules (2014)",
+    "Description": "A eirld of magic that is derived from a bargain with an extraplanar entity",
+    "HitDie": "d8",
+    "PrimaryAbility": "Charisma",
+    "Saves": "Wisdom & Charisma"
+  },
+  {
+    "Id": 11,
+    "Name": "Wizard",
+    "Resource": "Basic Rules (2014)",
+    "Description": "A scholarly magic-user capable of manipulating the structures of reality",
+    "HitDie": "d6",
+    "PrimaryAbility": "Intelligence",
+    "Saves": "Intelligence & Wisdom"
+  }
+]

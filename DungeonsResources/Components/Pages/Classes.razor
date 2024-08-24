@@ -1,0 +1,35 @@
+﻿@using Entities
+@page "/classes"
+<PageTitle>Classes</PageTitle>
+<h3>Classes</h3>
+
+@if (ClassList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="resourceContainer">
+        @foreach (Class cls in ClassList)
+        {
+            <a href="class/@cls.Id">
+                <div class="resourceObject">
+                    <h3>@cls.Name</h3>
+                    <p>@cls.Resource</p>
+                    <p>@cls.Description</p>
+                    <p>@cls.HitDie</p>
+                    <p>@cls.PrimaryAbility</p>
+                    <p>@cls.Saves</p>
+                </div>
+            </a>
+        }
+    </div>
+}
+@code {
+    List<Class> ClassList = new List<Class>();
+    protected override async Task OnInitializedAsync()
+    {
+        IDataAccess json = new JsonAccess();
+        ClassList = json.GetClasses();
+    }
+}
