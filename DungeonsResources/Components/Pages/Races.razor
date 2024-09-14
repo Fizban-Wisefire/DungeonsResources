@@ -1,4 +1,7 @@
 ﻿@using Entities;
+@using WebAPI.Controllers;
+@using System.Net.Http;
+@using System.Text.Json;
 @page "/races"
 <PageTitle>Races</PageTitle>
 <h3>Races</h3>
@@ -29,10 +32,25 @@ else
     </div>
 }
 @code {
-    List<Race> RaceList = new List<Race>();
+    List<Race>? RaceList = new List<Race>();
     protected override async Task OnInitializedAsync()
     {
-        IDataAccess json = new JsonAccess();
-        RaceList = json.GetRaces();
+        string path = "https://localhost:7246/api/Races";
+        var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+        using(var httpClint = new HttpClient())
+        {
+            var respone = await httpClint.GetAsync(path);
+            var data = await respone.Content.ReadAsStringAsync();
+            Console.WriteLine(data);
+            RaceList = JsonSerializer.Deserialize<List<Race>>(data, options);
+        }  
+
+
+
+//        IDataAccess json = new JsonAccess();
+//        RaceList = json.GetRaces();
     }
 }
