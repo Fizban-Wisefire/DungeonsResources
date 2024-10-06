@@ -20,17 +20,13 @@ namespace WebAPI.Controllers
         [HttpGet]
         public async Task<List<Race>> Get()
         {
-            List<Race> raceList = new List<Race>();
-            string fileName = "sampleData/races.json";
-            string filePath = Path.Combine(AppContext.BaseDirectory, "data", "races.json");
-            string jsonData = System.IO.File.ReadAllText(filePath);
+            IDataAccess db = new DbAccess();
+            List<Race> racelist = db.GetRaces();
 
-            raceList = JsonSerializer.Deserialize<List<Race>>(jsonData);
-
-            return raceList;
+            return racelist;
         }
 
-        // GET api/<RacesController>/5
+        // GET api/<RacesController>
         [HttpGet("{id}")]
         public string Get(int id)
         {

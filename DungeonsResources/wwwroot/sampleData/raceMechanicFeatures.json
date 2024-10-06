@@ -3,6 +3,7 @@
         "Id" : 0,
         "Race": "Dragonborn",
         "Name": "Ability Score Increase",
+        "Type": "Block",
         "Text": "Your Strength score increases by 2, and your Charisma score increases by 1.",
         "CharacterSheetText": ""
     },
@@ -10,6 +11,7 @@
         "Id" : 1,
         "Race": "Dragonborn",
         "Name": "Age",
+        "Type": "Block",
         "Text": "Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.",
         "CharacterSheetText": ""
     },
@@ -17,6 +19,15 @@
         "Id" : 2,
         "Race": "Dragonborn",
         "Name": "Size",
+        "Type": "Block",
+        "Text": "Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil. Most dragonborn are good, but those who side with evil can be terrible villains.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 2,
+        "Race": "Dragonborn",
+        "Name": "Alignment",
+        "Type": "Block",
         "Text": "Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.",
         "CharacterSheetText": ""
     },
@@ -24,6 +35,15 @@
         "Id" : 3,
         "Race": "Dragonborn",
         "Name": "Speed",
+        "Type": "Block",
+        "Text": "Your base walking speed is 30 feet.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 3,
+        "Race": "Dragonborn",
+        "Name": "Draconic Ancestry",
+        "Type": "Table",
         "Text": "Your base walking speed is 30 feet.",
         "CharacterSheetText": ""
     },
@@ -31,6 +51,7 @@
         "Id" : 4,
         "Race": "Dragonborn",
         "Name": "Draconic Ancestry",
+        "Type": "Block",
         "Text": "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.",
         "CharacterSheetText": ""
     },
@@ -38,6 +59,7 @@
         "Id" : 5,
         "Race": "Dragonborn",
         "Name": "Breath Weapon",
+        "Type": "Block",
         "Text": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
         "CharacterSheetText": ""
     },
@@ -45,6 +67,7 @@
         "Id" : 6,
         "Race": "Dragonborn",
         "Name": "Damage Resistance",
+        "Type": "Block",
         "Text": "You have resistance to the damage type associated with your draconic ancestry.",
         "CharacterSheetText": ""
     },
@@ -52,6 +75,7 @@
         "Id" : 7,
         "Race": "Dragonborn",
         "Name": "Languages",
+        "Type": "Block",
         "Text": "You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.",
         "CharacterSheetText": ""
     },
@@ -59,6 +83,7 @@
         "Id" : 8,
         "Race": "Dwarf",
         "Name": "Ability Score Increase",
+        "Type": "Block",
         "Text": "Your Constitution score increases by 2.",
         "CharacterSheetText": ""
     },
@@ -66,6 +91,7 @@
         "Id" : 9,
         "Race": "Dwarf",
         "Name": "Age",
+        "Type": "Block",
         "Text": "Dwarves mature at the same rate as humans, but they'''re considered young until they reach the age of 50. On average, they live about 350 years.",
         "CharacterSheetText": ""
     },
@@ -73,6 +99,7 @@
         "Id" : 10,
         "Race": "Dwarf",
         "Name": "Size",
+        "Type": "Block",
         "Text": "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
         "CharacterSheetText": ""
     },
@@ -80,6 +107,7 @@
         "Id" : 11,
         "Race": "Dwarf",
         "Name": "Speed",
+        "Type": "Block",
         "Text": "Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.",
         "CharacterSheetText": ""
     },
@@ -87,6 +115,7 @@
         "Id" : 12,
         "Race": "Dwarf",
         "Name": "Darkvision",
+        "Type": "Block",
         "Text": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
         "CharacterSheetText": ""
     },
@@ -94,6 +123,7 @@
         "Id" : 13,
         "Race": "Dwarf",
         "Name": "Dwarven Resilience",
+        "Type": "Block",
         "Text": "You have advantage on saving throws against poison, and you have resistance against poison damage.",
         "CharacterSheetText": ""
     },
@@ -101,6 +131,7 @@
         "Id" : 14,
         "Race": "Dwarf",
         "Name": "Dwarven Combat Training",
+        "Type": "Block",
         "Text": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.",
         "CharacterSheetText": ""
     },
@@ -108,6 +139,7 @@
         "Id" : 15,
         "Race": "Dwarf",
         "Name": "Tool Proficiency",
+        "Type": "Block",
         "Text": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.",
         "CharacterSheetText": ""
     },
@@ -115,6 +147,7 @@
         "Id" : 16,
         "Race": "Dwarf",
         "Name": "Stonecunning",
+        "Type": "Block",
         "Text": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
         "CharacterSheetText": ""
     },
@@ -122,6 +155,7 @@
         "Id" : 17,
         "Race": "Dwarf",
         "Name": "Languages",
+        "Type": "Block",
         "Text": "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.",
         "CharacterSheetText": ""
     },
@@ -129,6 +163,7 @@
         "Id" : 18,
         "Race": "Elf",
         "Name": "Ability Score Increase",
+        "Type": "Block",
         "Text": "Your Dexterity score increases by 2.",
         "CharacterSheetText": ""
     },
@@ -136,13 +171,23 @@
         "Id" : 19,
         "Race": "Elf",
         "Name": "Age",
+        "Type": "Block",
         "Text": "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 19,
+        "Race": "Elf",
+        "Name": "Alignment",
+        "Type": "Block",
+        "Text": "Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.",
         "CharacterSheetText": ""
     },
     {
         "Id" : 20,
         "Race": "Elf",
         "Name": "Size",
+        "Type": "Block",
         "Text": "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
         "CharacterSheetText": ""
     },
@@ -150,6 +195,7 @@
         "Id" : 21,
         "Race": "Elf",
         "Name": "Speed",
+        "Type": "Block",
         "Text": "Your base walking speed is 30 feet.",
         "CharacterSheetText": ""
     },
@@ -157,6 +203,7 @@
         "Id" : 22,
         "Race": "Elf",
         "Name": "Darkvision",
+        "Type": "Block",
         "Text": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.",
         "CharacterSheetText": ""
     },
@@ -164,6 +211,7 @@
         "Id" : 23,
         "Race": "Elf",
         "Name": "Keen Senses",
+        "Type": "Block",
         "Text": "You have proficiency in the Perception skill.",
         "CharacterSheetText": ""
     },
@@ -171,6 +219,7 @@
         "Id" : 24,
         "Race": "Elf",
         "Name": "Fey Ancestry",
+        "Type": "Block",
         "Text": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep.",
         "CharacterSheetText": ""
     },
@@ -178,6 +227,7 @@
         "Id" : 25,
         "Race": "Elf",
         "Name": "Trance",
+        "Type": "Block",
         "Text": "Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
         "CharacterSheetText": ""
     },
@@ -185,7 +235,280 @@
         "Id" : 26,
         "Race": "Elf",
         "Name": "Languages",
+        "Type": "Block",
         "Text": "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Elf",
+        "Name": "Ability Score Increase",
+        "Type": "Block",
+        "Text": "Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Elf",
+        "Name": "Age",
+        "Type": "Block",
+        "Text": "Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Elf",
+        "Name": "Alignment",
+        "Type": "Block",
+        "Text": "Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others’ demands, and Not for resale. Permission granted to print or photocopy this document for personal use only . System Reference Document 5.1 7 sometimes prove unreliable, or at least unpredictable.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Elf",
+        "Name": "Size",
+        "Type": "Block",
+        "Text": "Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Elf",
+        "Name": "Speed",
+        "Type": "Block",
+        "Text": "Your base walking speed is 30 feet.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Elf",
+        "Name": "Darkvision",
+        "Type": "Block",
+        "Text": "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Elf",
+        "Name": "Fey Ancestry",
+        "Type": "Block",
+        "Text": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Elf",
+        "Name": "Skill Versatility",
+        "Type": "Block",
+        "Text": "You gain proficiency in two skills of your choice.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Elf",
+        "Name": "Languages",
+        "Type": "Block",
+        "Text": "You can speak, read, and write Common, Elvish, and one extra language of your choice.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Orc",
+        "Name": "Ability Score Increase",
+        "Type": "Block",
+        "Text": "Text",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Orc",
+        "Name": "Age",
+        "Type": "Block",
+        "Text": "Text",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Orc",
+        "Name": "Alignment",
+        "Type": "Block",
+        "Text": "Text",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Orc",
+        "Name": "Size",
+        "Type": "Block",
+        "Text": "Text",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Orc",
+        "Name": "Speed",
+        "Type": "Block",
+        "Text": "Text",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Orc",
+        "Name": "Darkvision",
+        "Type": "Block",
+        "Text": "Text",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Orc",
+        "Name": "Menacing",
+        "Type": "Block",
+        "Text": "Text",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Orc",
+        "Name": "Relentless Endurance",
+        "Type": "Block",
+        "Text": "Text",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Orc",
+        "Name": "Save Attacks",
+        "Type": "Block",
+        "Text": "Text",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Half-Orc",
+        "Name": "Languages",
+        "Type": "Block",
+        "Text": "Text",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 18,
+        "Race": "Halfling",
+        "Name": "Ability Score Increase",
+        "Type": "Block",
+        "Text": "Your Dexterity score increases by 2.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 19,
+        "Race": "Halfling",
+        "Name": "Age",
+        "Type": "Block",
+        "Text": "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 20,
+        "Race" : "Halfling",
+        "Name" : "Alignment",
+        "Type" : "Block",
+        "Text" : "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
+        "CharacterSheetText" : ""        
+    },
+    {
+        "Id" : 20,
+        "Race": "Halfling",
+        "Name": "Size",
+        "Type": "Block",
+        "Text": "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 21,
+        "Race": "Halfling",
+        "Name": "Speed",
+        "Type": "Block",
+        "Text": "Your base walking speed is 25 feet.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 22,
+        "Race": "Halfling",
+        "Name": "Lucky",
+        "Type": "Block",
+        "Text": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 23,
+        "Race": "Halfling",
+        "Name": "Brave",
+        "Type": "Block",
+        "Text": "You have advantage on saving throws against being frightened.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 24,
+        "Race": "Halfling",
+        "Name": "Halfling Nimbleness",
+        "Type": "Block",
+        "Text": "You can move through the space of any creature that is of a size larger than yours.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Halfling",
+        "Name": "Languages",
+        "Type": "Block",
+        "Text": "You can speak, read, and write Common and Halfling. The Halfling language isn’t secret, but halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Human",
+        "Name": "Ability Score Increase",
+        "Type": "Block",
+        "Text": "Your ability scores each increase by 1.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Human",
+        "Name": "Age",
+        "Type": "Block",
+        "Text": "Humans reach adulthood in their late teens and live less than a century.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Human",
+        "Name": "Alignment",
+        "Type": "Block",
+        "Text": "Humans tend toward no particular alignment. The best and the worst are found among them.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Human",
+        "Name": "Size",
+        "Type": "Block",
+        "Text": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Human",
+        "Name": "Speed",
+        "Type": "Block",
+        "Text": "Your base walking speed is 30 feet.",
+        "CharacterSheetText": ""
+    },
+    {
+        "Id" : 26,
+        "Race": "Human",
+        "Name": "Languages",
+        "Type": "Block",
+        "Text": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.",
         "CharacterSheetText": ""
     }
 ]

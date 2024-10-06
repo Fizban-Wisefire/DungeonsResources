@@ -1,6 +1,6 @@
 ﻿[
   {
-    "Id": 0,
+    "Id": 11,
     "Name": "Dragonborn",
     "Resource": "Basic Rules (2014)",
     "Description": "Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail.",
@@ -16,7 +16,7 @@
     "RaceFeatures": []
   },
   {
-    "Id": 1,
+    "Id": 2,
     "Name": "Dwarf",
     "Resource": "Basic Rules (2014)",
     "Description": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal.",
@@ -32,7 +32,7 @@
     "RaceFeatures": []
   },
   {
-    "Id": 2,
+    "Id": 3,
     "Name": "Elf",
     "Resource": "Basic Rules (2014)",
     "Description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.",
@@ -48,7 +48,7 @@
     "RaceFeatures": []
   },
   {
-    "Id": 3,
+    "Id": 4,
     "Name": "Gnome",
     "Resource": "Basic Rules (2014)",
     "Description": "A gnome's energy and enthusiasm for living shines through every inch of his or her tiny body.",
@@ -64,7 +64,7 @@
     "RaceFeatures": []
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Name": "Half-Elf",
     "Resource": "Basic Rules (2014)",
     "Description": "Half-Elves combine what some say are the best qualities of their elf and human parents.",
@@ -80,7 +80,7 @@
     "RaceFeatures": []
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Name": "Half-Orc",
     "Resource": "Basic Rules (2014)",
     "Description": "The diminutive halflings survive in a world full of larger creatures by avoiding notice, or barring that, avoiding offense.",
@@ -96,7 +96,7 @@
     "RaceFeatures": []
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Name": "Halfling",
     "Resource": "Basic Rules (2014)",
     "Description": "Some half-orcs rise to become proud leaders of orc communities. Some venture into the world to prove their worth. Many of these become adventurers achieving greatness for their mighty deeds.",
@@ -112,7 +112,7 @@
     "RaceFeatures": []
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Name": "Human",
     "Resource": "Basic Rules (2014)",
     "Description": "Humans are the most adaptable and ambitious people among the common races. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
@@ -128,7 +128,7 @@
     "RaceFeatures": []
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Name": "Tiefling",
     "Resource": "Basic Rules (2014)",
     "Description": "To be greeted with stares and whispers, to suffer violence and insult on the streets to see mistrust and fear in every eye: this is the lot of the tiefling.",

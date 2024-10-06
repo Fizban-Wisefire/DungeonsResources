@@ -18,6 +18,8 @@ namespace Entities
         public List<ClassDescriptionFeature> DescriptionFeatures { get; set; }
         public List<ClassMechanicFeature> MechanicFeatures { get; set; }
 
+        public Class() { }
+
         public Class(int Id, string Name, string Resource , string Description, string HitDie, string PrimaryAbility, string Saves, List<ClassDescriptionFeature> DescriptionFeatures, List<ClassMechanicFeature> MechanicFeatures) 
         {
             this.Id = Id;

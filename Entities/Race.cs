@@ -24,7 +24,7 @@ namespace Entities
         public List<RaceDescriptionFeature> DescriptionFeatures { get; set; }
         public List<RaceMechanicFeature> MechanicFeatures { get; set; }
         
-
+        public Race() { }
 
         public Race(int Id, string Name, string Resource, string Description, int Str, int Dex, int Con, int Wis, int Int, int Cha, string Age, string Size, int Speed, List<RaceDescriptionFeature> DescriptionFeatures, List<RaceMechanicFeature> MechanicFeatures) 
         {

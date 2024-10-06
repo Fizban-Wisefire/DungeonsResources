@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsResources", "Dungeo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{79CE28CD-6ABA-466F-A0A5-62411E801DFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{F2EECAB5-42D7-4C08-978C-2FCAA8FC3686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{F2EECAB5-42D7-4C08-978C-2FCAA8FC3686}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

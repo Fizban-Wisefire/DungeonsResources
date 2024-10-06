@@ -1,0 +1,31 @@
+﻿@using Entities;
+@using System.Text.Json;
+@using WebAPI;
+
+@page "/db"
+
+<h3>UpdateDataBase</h3>
+
+@code
+{
+    List<Race>? RaceList = new List<Race>();
+    protected override async Task OnInitializedAsync()
+    {
+        string path = "https://localhost:7246/api/Races";
+        var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+        using (var httpClint = new HttpClient())
+        {
+            var respone = await httpClint.GetAsync(path);
+            var data = await respone.Content.ReadAsStringAsync();
+            Console.WriteLine(data);
+            RaceList = JsonSerializer.Deserialize<List<Race>>(data, options);
+        }
+
+        DbAccess dataAccess = new DbAccess();
+
+        dataAccess.AddRaces(RaceList);
+    }
+}
