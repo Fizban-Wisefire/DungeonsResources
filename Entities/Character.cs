@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    internal class ClassFeature
+    internal class Character
     {
-
     }
 }

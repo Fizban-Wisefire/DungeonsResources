@@ -1,0 +1,31 @@
+﻿@using Entities
+@page "/backgrounds"
+<PageTitle>Backgrounds</PageTitle>
+<h3>Classes</h3>
+
+@if (BackgroundList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="resourceContainer">
+        @foreach (Background bkg in BackgroundList)
+        {
+            <a href="background/@bkg.Id">
+                <div class="resourceObject">
+                    <h3>@bkg.Name</h3>
+                    <p>@bkg.Description</p>
+                </div>
+            </a>
+        }
+    </div>
+}
+@code {
+    List<Background> BackgroundList = new List<Background>();
+    protected override async Task OnInitializedAsync()
+    {
+        IDataAccess json = new JsonAccess();
+        BackgroundList = json.GetBackgrounds();
+    }
+}

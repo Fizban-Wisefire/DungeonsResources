@@ -1,0 +1,52 @@
+﻿@using Entities;
+@using System.Text.Json;
+
+@page "/background/{background}"
+<PageTitle>Background: @background</PageTitle>
+
+@if (pageBackground == null)
+{
+    <p>Looking for race infomation...</p>
+}
+
+else
+{
+    <h1>Race: @pageBackground.Name</h1>
+
+    <div class="backgroundPageContainer">
+        <h5>Description</h5>
+        <p>@pageBackground.Description</p>
+        <h5>Skills</h5>
+        <p>@pageBackground.Skills</p>
+        <h5>Languages</h5>
+        <p>@pageBackground.Languages</p>
+        <h5>Instruments</h5>
+        <p>@pageBackground.Instruments</p>
+        <h5>Equipment</h5>
+        <p>@pageBackground.Equipment</p>
+        @if (pageBackground.BackgroundFeatures != null)
+        {
+            @foreach (BackgroundFeature feature in pageBackground.BackgroundFeatures)
+            {
+                <div class="backgroundPageContainerSection, descriptionFeature">
+                    <h5>@feature.Name</h5>
+                    <p>@feature.Description</p>
+                </div>
+            }
+        }
+    </div>
+}
+@code {
+    [Parameter]
+    public string? background { get; set; }
+    public Background pageBackground;
+
+    protected override async Task OnInitializedAsync()
+    {
+        IDataAccess json = new JsonAccess();
+        pageBackground = json.GetBackground(Int32.Parse(background));
+
+        Console.WriteLine("Page Race is " + pageBackground.Name);
+
+    }
+}

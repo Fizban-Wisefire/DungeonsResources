@@ -1,4 +1,5 @@
-﻿using Entities;
+﻿using DungeonsResources.Components.Pages;
+using Entities;
 using System.Text.Json;
 
 namespace DungeonsResources
@@ -117,5 +118,42 @@ namespace DungeonsResources
             newClass.MechanicFeatures = mechanicFeatures;
             return newClass;
         }
+
+        public List<Background> GetBackgrounds()
+        {
+            string fileName = "wwwroot/sampleData/backgrounds.json";
+            using FileStream openStream = File.OpenRead(fileName);
+            List<Background>? backgrounds = JsonSerializer.Deserialize<List<Background>>(openStream);
+            Console.WriteLine(backgrounds[0]);
+            return backgrounds;
+
+        }
+
+        public List<BackgroundFeature> GetBackgroundFeatures(Background background)
+        {
+            Console.WriteLine("Starting B Features");
+            string fileName = "wwwroot/sampleData/backgroundFeatures.json";
+            using FileStream openStream = File.OpenRead(fileName);
+            List<BackgroundFeature>? featureList = JsonSerializer.Deserialize<List<BackgroundFeature>>(openStream);
+            List<BackgroundFeature> newList = new List<BackgroundFeature>();
+            foreach (BackgroundFeature feature in featureList)
+            {
+                if (background.Features == feature.Id)
+                {
+                    newList.Add(feature);
+                }
+            }
+            Console.WriteLine("Finished D Features");
+            return newList;
+        }
+        public Background GetBackground(int id)
+        {
+            List<Background> backgrounds = GetBackgrounds();
+            Background newBackground = backgrounds[id-1];
+            List<BackgroundFeature> descriptionFeatures = GetBackgroundFeatures(newBackground);
+            newBackground.BackgroundFeatures = descriptionFeatures;
+            return newBackground;
+        }
+
     }
 }

@@ -1,6 +1,6 @@
 ﻿[
   {
-    "Id": 11,
+    "Id": 1,
     "Name": "Dragonborn",
     "Resource": "Basic Rules (2014)",
     "Description": "Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail.",
@@ -12,8 +12,7 @@
     "Cha": 1,
     "Age": "Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.",
     "Size": "Medium",
-    "Speed": 30,
-    "RaceFeatures": []
+    "Speed": 30
   },
   {
     "Id": 2,
@@ -28,8 +27,7 @@
     "Cha": 0,
     "Age": "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
     "Size": "Medium",
-    "Speed": 25,
-    "RaceFeatures": []
+    "Speed": 25
   },
   {
     "Id": 3,
@@ -44,8 +42,7 @@
     "Cha": 0,
     "Age": "TEST",
     "Size": "Medium",
-    "Speed": 30,
-    "RaceFeatures": []
+    "Speed": 30
   },
   {
     "Id": 4,
@@ -60,8 +57,7 @@
     "Cha": 0,
     "Age": "TEST",
     "Size": "Small",
-    "Speed": 25,
-    "RaceFeatures": []
+    "Speed": 25
   },
   {
     "Id": 5,
@@ -76,8 +72,7 @@
     "Cha": 2,
     "Age": "TEST",
     "Size": "Medium",
-    "Speed": 30,
-    "RaceFeatures": []
+    "Speed": 30
   },
   {
     "Id": 6,
@@ -92,8 +87,7 @@
     "Cha": 0,
     "Age": "TEST",
     "Size": "Medium",
-    "Speed": 30,
-    "RaceFeatures": []
+    "Speed": 30
   },
   {
     "Id": 7,
@@ -108,8 +102,7 @@
     "Cha": 0,
     "Age": "TEST",
     "Size": "Medium",
-    "Speed": 25,
-    "RaceFeatures": []
+    "Speed": 25
   },
   {
     "Id": 8,
@@ -124,8 +117,7 @@
     "Cha": 1,
     "Age": "TEST",
     "Size": "Medium",
-    "Speed": 30,
-    "RaceFeatures": []
+    "Speed": 30
   },
   {
     "Id": 9,
@@ -140,7 +132,6 @@
     "Cha": 2,
     "Age": "TEST",
     "Size": "Medium",
-    "Speed": 30,
-    "RaceFeatures": []
+    "Speed": 30
   }
 ]

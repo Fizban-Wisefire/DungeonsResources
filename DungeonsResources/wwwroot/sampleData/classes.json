@@ -1,6 +1,6 @@
 ﻿[
   {
-    "Id": 0,
+    "Id": 1,
     "Name": "Barbarian",
     "Resource": "Basic Rules (2014)",
     "Description" : "A fierce warrior who can enter a battle rage",
@@ -9,7 +9,7 @@
     "Saves": "Strength & Constitution"
   },
   {
-    "Id": 1,
+    "Id": 2,
     "Name": "Bard",
     "Resource": "Basic Rules (2014)",
     "Description": "An inspiring magician whose power echoes the music of creation",
@@ -18,7 +18,7 @@
     "Saves": "Dexterity & Charisma"
   },
   {
-    "Id": 2,
+    "Id": 3,
     "Name": "Cleric",
     "Resource": "Basic Rules (2014)",
     "Description": "A priestly champion who wields divine magic in service of a higher power",
@@ -27,7 +27,7 @@
     "Saves": "Wisdom & Charisma"
   },
   {
-    "Id": 3,
+    "Id": 4,
     "Name": "Druid",
     "Resource": "Basic Rules (2014)",
     "Description": "A priest of the Old Faith, wielding the powers of nature and adopting animal forms",
@@ -36,7 +36,7 @@
     "Saves": "Intelligence & Wisdom"
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Name": "Fighter",
     "Resource": "Basic Rules (2014)",
     "Description": "A master of martial combat, skilled with a variety of weapons and armor",
@@ -45,7 +45,7 @@
     "Saves": "Strength & Constitution"
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Name": "Monk",
     "Resource": "Basic Rules (2014)",
     "Description": "A master of martial arts harnessing the power of the body in pursuit of physical and spiritual perfection",
@@ -54,7 +54,7 @@
     "Saves": "Strength & Dexterity"
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Name": "Paladin",
     "Resource": "Basic Rules (2014)",
     "Description": "A holy warrior bound to a sacred oath",
@@ -63,7 +63,7 @@
     "Saves": "Wisdom & Charisma"
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Name": "Ranger",
     "Resource": "Basic Rules (2014)",
     "Description": "A warrior who combats threats on the edges of civilization",
@@ -72,7 +72,7 @@
     "Saves": "Strength & Dexterity"
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Name": "Rogue",
     "Resource": "Basic Rules (2014)",
     "Description": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies",
@@ -81,7 +81,7 @@
     "Saves": "Dexterity & Intelligence"
   },
   {
-    "Id": 9,
+    "Id": 10,
     "Name": "Sorcerer",
     "Resource": "Basic Rules (2014)",
     "Description": "A spellcaster who draws on inherent magic from a gift or bloodline",
@@ -90,7 +90,7 @@
     "Saves": "Constitution & Charisma"
   },
   {
-    "Id": 10,
+    "Id": 11,
     "Name": "Warlock",
     "Resource": "Basic Rules (2014)",
     "Description": "A eirld of magic that is derived from a bargain with an extraplanar entity",
@@ -99,7 +99,7 @@
     "Saves": "Wisdom & Charisma"
   },
   {
-    "Id": 11,
+    "Id": 12,
     "Name": "Wizard",
     "Resource": "Basic Rules (2014)",
     "Description": "A scholarly magic-user capable of manipulating the structures of reality",

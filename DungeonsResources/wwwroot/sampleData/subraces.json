@@ -1,0 +1,54 @@
+[
+    {
+      "Id": 1,
+      "Name": "Hill Dwarf",
+      "Race": "Dwarf",
+      "Resource": "Basic Rules (2014)",
+      "Description": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes.",
+      "Str": 0,
+      "Dex": 0,
+      "Con": 1,
+      "Int": 0,
+      "Wis": 0,
+      "Cha": 0
+    },
+    {
+        "Id": 2,
+        "Name": "High Elf",
+        "Race": "Elf",
+        "Resource": "Basic Rules (2014)",
+        "Description": "As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type is more common and more friendly, and often encountered among humans and other races.",
+        "Str": 0,
+        "Dex": 0,
+        "Con": 0,
+        "Int": 1,
+        "Wis": 0,
+        "Cha": 0
+      },
+      {
+        "Id": 4,
+        "Name": "Rock Gnome",
+        "Race": "Gnome",
+        "Resource": "Basic Rules (2014)",
+        "Description": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes.",
+        "Str": 0,
+        "Dex": 0,
+        "Con": 1,
+        "Int": 0,
+        "Wis": 0,
+        "Cha": 0
+      },
+      {
+          "Id": 3,
+          "Name": "Lightfoot",
+          "Race": "Halfling",
+          "Resource": "Basic Rules (2014)",
+          "Description": "As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others. Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.",
+          "Str": 0,
+          "Dex": 0,
+          "Con": 0,
+          "Int": 0,
+          "Wis": 0,
+          "Cha": 1
+      }
+]

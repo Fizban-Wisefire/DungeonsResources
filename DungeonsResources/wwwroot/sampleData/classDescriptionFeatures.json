@@ -1,44 +1,170 @@
 ﻿[
     {
-        "Id" : 0,
-        "Class" : "Barbarian",
-        "Name" : "BarbarianDescription",
-        "Type" : "Description",
-        "Text" : "A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people’s elk herd. A half-orc snarls at the latest challenger to her authority over their tribe, ready to break his neck with her bare hands as she did to the last six rivals. Frothing at the mouth, a dwarf slams his helmet into the face of his drow foe, then turns to drive his armored elbow into the gut of another. These barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea. For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength."
-    },
-    {
         "Id" : 1,
-        "Class" : "Barbarian",
-        "Name" : "Primal Instinct",
-        "Type" : "Regular",
-        "Text" : "People of towns and cities take pride in their settled ways, as if denying one’s connection to nature were a mark of superiority. To a barbarian, though, a settled life is no virtue, but a sign of weakness. The strong embrace nature—valuing keen instincts, primal physicality, and ferocious rage. Barbarians are uncomfortable when hedged in by walls and crowds. They thrive in the wilds of their homelands: the tundra, jungle, or grasslands where their tribes live and hunt. Barbarians come alive in the chaos of combat. They can enter a berserk state where rage takes over, giving them superhuman strength and resilience. A barbarian can draw on this reservoir of fury only a few times without resting, but those few rages are usually sufficient to defeat whatever threats arise."
-    },
-    {
-        "Id" : 2,
-        "Class" : "Barbarian",
-        "Name" : "A Life of Danger",
-        "Type" : "Regular",
-        "Text" : "A barbarian plays an important role as a protector of their people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Barbarians charge headlong into that danger so that their people don’t have to. Their courage in the face of danger makes barbarians perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a barbarian. Some barbarians miss the closeknit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties."
-    },
-    {
-        "Id" : 3,
-        "Class" : "Barbarian",
-        "Name" : "Creating a Barbarian",
-        "Type" : "Regular",
-        "Text" : "When creating a barbarian character, think about where your character comes from and his or her place in the world. Talk with your DM about an appropriate origin for your barbarian. Did you come from a distant land, making you a stranger in the area of the campaign? Or is the campaign set in a rough-and-tumble frontier where barbarians are common? What led you to take up the adventuring life? Were you lured to settled lands by the promise of riches? Did you join forces with soldiers of those lands to face a shared threat? Did monsters or an invading horde drive you out of your homeland, making you a rootless refugee? Perhaps you were a prisoner of war, brought in chains to another land and only now able to win your freedom. Or you might have been cast out from your people because of a crime you committed, a taboo you violated, or a coup that removed you from a position of authority."
-    },
-    {
-        "Id" : 4,
-        "Class" : "Barbarian",
-        "Name" : "QUICK BUILD",
-        "Type" : "Block",
-        "Text" : "You can make a barbarian quickly by following these suggestions. First, put your highest ability score in Strength, followed by Constitution. Second, choose the outlander background."
-    },
-    {
-        "Id" : 5,
         "Class" : "Barbarian",
         "Name" : "Class Features",
         "Type" : "Regular",
         "Text" : "As a barbarian, you gain the following class features."
+    },
+    {
+        "Id" : 2,
+        "Class" : "Bard",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a bard, you gain the following class features."
+    },
+    {
+        "Id" : 3,
+        "Class" : "Cleric",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a cleric, you gain the following class features."
+    },
+    {
+        "Id" : 4,
+        "Class" : "Druid",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a druid, you gain the following class features."
+    },
+    {
+        "Id" : 5,
+        "Class" : "Fighter",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a fighter, you gain the following class features."
+    },
+    {
+        "Id" : 6,
+        "Class" : "Monk",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a monk, you gain the following class features."
+    },
+    {
+        "Id" : 7,
+        "Class" : "Paladin",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a paladin, you gain the following class features."
+    },
+    {
+        "Id" : 8,
+        "Class" : "Ranger",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a ranger, you gain the following class features."
+    },
+    {
+        "Id" : 9,
+        "Class" : "Rogue",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a rogue, you have the following class features."
+    },
+    {
+        "Id" : 10,
+        "Class" : "Sorcerer",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a sorcerer, you gain the following class features."
+    },
+    {
+        "Id" : 11,
+        "Class" : "Warlock",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a warlock, you gain the following class features."
+    },
+    {
+        "Id" : 12,
+        "Class" : "Wizard",
+        "Name" : "Class Features",
+        "Type" : "Regular",
+        "Text" : "As a wizard, you gain the following class features."
+    },
+    {
+        "Id" : 13,
+        "Class" : "Path of the Beserker",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "For some barbarians, rage is a means to an end— that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker’s rage, you thrill in the chaos of battle, heedless of your own health or well-being."
+    },
+    {
+        "Id" : 14,
+        "Class" : "College of Lore",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king. The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic. The college’s members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority."
+    },
+    {
+        "Id" : 15,
+        "Class" : "Life Domain",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "Choose one domain related to your deity, such as Life. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels."
+    },
+    {
+        "Id" : 16,
+        "Class" : "Circle of the Land",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle’s wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle’s mysterious rites."
+    },
+    {
+        "Id" : 17,
+        "Class" : "Champion",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows."
+    },
+    {
+        "Id" : 18,
+        "Class" : "Way of the Open Hand",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm."
+    },
+    {
+        "Id" : 19,
+        "Class" : "Oath of Devotion",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these Not for resale. Permission granted to print or photocopy this document for personal use only . System Reference Document 5.1 33 paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of their devotion. They hold angels—the perfect servants of good—as their ideals, and incorporate images of angelic wings into their helmets or coats of arms."
+    },
+    {
+        "Id" : 20,
+        "Class" : "Hunter",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter’s path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons."
+    },
+    {
+        "Id" : 21,
+        "Class" : "Thief",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn’t employ."
+    },
+    {
+        "Id" : 22,
+        "Class" : "Draconic Bloodline",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance."
+    },
+    {
+        "Id" : 23,
+        "Class" : "The Fiend",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz’Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths."
+    },
+    {
+        "Id" : 24,
+        "Class" : "School of Evocation",
+        "Name" : "Class Desciption",
+        "Type" : "Regular",
+        "Text" : "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants."
     }
 ]

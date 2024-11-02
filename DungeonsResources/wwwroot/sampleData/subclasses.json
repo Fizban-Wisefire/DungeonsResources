@@ -1,0 +1,62 @@
+[
+    {
+        "Id" : 1,
+        "Name" : "Path of the Beserker",
+        "Class" : "Barbarian"
+    },
+    {
+        "Id" : 2,
+        "Name" : "College of Lore",
+        "Class" : "Bard"
+    },
+    {
+        "Id" : 3,
+        "Name" : "Life Domain",
+        "Class" : "Cleric"
+    },
+    {
+        "Id" : 4,
+        "Name" : "Circle of the Land",
+        "Class" : "Druid"
+    },
+    {
+        "Id" : 5,
+        "Name" : "Champion",
+        "Class" : "Fighter"
+    },
+    {
+        "Id" : 6,
+        "Name" : "Way of the Open Hand",
+        "Class" : "Monk"
+    },
+    {
+        "Id" : 7,
+        "Name" : "Oath of Devotion",
+        "Class" : "Paladin"
+    },
+    {
+        "Id" : 8,
+        "Name" : "Hunter",
+        "Class" : "Ranger"
+    },
+    {
+        "Id" : 9,
+        "Name" : "Thief",
+        "Class" : "Rogue"
+    },
+    {
+        "Id" : 10,
+        "Name" : "Draconic Bloodline",
+        "Class" : "Sorcerer"
+    },
+    {
+        "Id" : 11,
+        "Name" : "The Fiend",
+        "Class" : "Warlock"
+    },
+    {
+        "Id" : 12,
+        "Name" : "School of Evocation",
+        "Class" : "Wizard"
+    }
+]
